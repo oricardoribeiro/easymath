@@ -6,7 +6,7 @@ void versao_titulo(void)
 
 	system("reset");
 	printf("##############################################\n");
-	printf("#           Matemática V 0.1                 #\n");
+	printf("#           easymath V 0.2                   #\n");
 	printf("##############################################\n");
 	printf("\n\n");
 }
