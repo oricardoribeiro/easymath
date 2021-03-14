@@ -1,2 +1,5 @@
-easymath: funclogo.c main.c
-  gcc -o easymath main.c funclogo.c -I.
+IDIR =./include
+CC=gcc
+CFLAGS=-I$(IDIR)
+
+easymath: easymath.o 
