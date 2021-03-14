@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <easymath.h>
 
 void versao_titulo(void)
 {
