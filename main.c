@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <unistd.h>
+#include <easymath.h>
 
 int main(void)
 {
