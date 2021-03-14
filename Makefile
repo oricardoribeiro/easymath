@@ -2,4 +2,5 @@ IDIR =./include
 CC=gcc
 CFLAGS=-I$(IDIR)
 
-easymath: easymath.o 
+easymath: main.o funclogo.o
+  $(CC) -o easymath main.o funclogo.o
