@@ -118,7 +118,7 @@ int main(void)
 			break;
 		}
 		resultado = 1.0;
-		setbuf(stdin, NULL);  // Limpa o buffer do teclado - unistd.h (Melhor que o fflush)
+		setbuf(stdin, NULL);  // Refresh and clean the keyboard buffer - unistd.h (much better then fflush)
 	}
 
 
