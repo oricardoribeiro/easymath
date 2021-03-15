@@ -14,7 +14,7 @@ int main(void)
 	fator1 = fator2 = parcela1 = parcela2 = diminuendo = subtraendo = resto = resultado = divisor = soma = 0;
 
 	versao_titulo();
-	printf("A matemática mais fácil ...\n\n");
+	printf("A matemática mais fácil!\n\n");
 	sleep(1);
 	opcao = '1';
 	resultado = 1.0;
